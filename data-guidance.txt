@@ -1,0 +1,45 @@
+Elective home education
+2023/24 Academic year
+
+Description
+
+This document describes the data included in the Elective home education ad-hoc statistics release underlying data files. This data is released under the terms of the Open Government License (http://www.nationalarchives.gov.uk/doc/open-government-licence/) and is intended to meet at least 3 stars for Open Data (https://www.gov.uk/government/policies/improving-the-transparency-and-accountability-of-government-and-its-services/supporting-pages/releasing-data-in-open-formats). The methodology document should be referenced alongside this data. It provides information on the data sources, their coverage and quality as well as explaining methodology used in producing the data.
+
+Coverage
+
+The release provides information on the number of children in elective home education at census date in each term, plus the number of children in elective home education education at any time in the previous academic year.
+
+File formats and conventions
+
+LA and regional data has been rounded to the nearest 10, national figures are rounded to the nearest 100.
+
+The following convention is used throughout the underlying data.
+
+x - unavailable
+
+low - denotes figures based on count that rounds to 0, but is not 0. Figures may not sum to breakdowns due to rounding.
+
+Data files
+
+Elective home education at census date
+
+Filename: ehe_census.csv
+Geographic levels: Local authority; National; Regional
+Time period: 2022/23 Autumn term to 2023/24 Autumn term
+Content summary: The number of children in elective home education at the census date in each term. Includes Autumn 2022 to Autumn 2023.
+
+Includes breakdowns by sex, expected year group and primary reason for EHE
+
+Variable names and descriptions for this file are provided below:
+
+Variable name  |  Variable description
+------  |  ------------------------------------------------
+filter  |  EHE children on census date by characteristics
+number  |  Number of EHE children on census date
+pc      |  Percentage of EHE children on census date
+rate    |  Rate of EHE children on census day by population
+
+Footnotes:
+
+1. Local authority response rates to the data collection vary by census date. To account for non-response, national and regional figures have been uprated based on local authority pupil populations.
+2. Rates of EHE are calculated based on ONS  mid-year population estimates (https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales) for children aged 5 to 16 years. The rates for 2023/24 are based on 2022 population estimates.
